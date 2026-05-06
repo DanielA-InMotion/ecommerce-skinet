@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+@import "../node_modules/ngx-spinner/animations/ball-scale-multiple.css";
+@import "../node_modules/ngx-toastr/toastr.css";
+
+/* Importing Bootstrap SCSS file. */
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+@import "../node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+
+a {
+  text-decoration: none;
+}
+
+label.xng-breadcrumb-trail {
+  margin-bottom: 0;
+  color: orange;
+  font-weight: bold;
+}
+
+.StripeElement {
+  height: 3.125em;
+}
